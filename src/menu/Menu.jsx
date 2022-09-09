@@ -21,6 +21,9 @@ const Menu = () =>{
                 <div className="nav_manu">
                 <NavLink exact activeClassName={activeClass} to="/search" style={{margin:'150px'}}> Search </NavLink>
                 </div>
+                <div className="nav_manu">
+                <NavLink exact activeClassName={activeClass} to="/Weather" style={{margin:'150px'}}> Weather </NavLink>
+                </div>
             </div>
         </>
     );

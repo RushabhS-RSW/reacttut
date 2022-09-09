@@ -8,6 +8,7 @@ import AsioxApi from './ch/AsioxApi';
 import { Link } from 'react-router-dom';
 import Menu from './menu/Menu'
 import Search from './Search/Search';
+import Weather from './Weather/Weather';
 
 const App = () => {
     const Jio = () =>{
@@ -27,6 +28,7 @@ const App = () => {
                     <Route path="/boot/1/:name" component={Params} />
                     <Route path="/asiox" component={AsioxApi} />
                     <Route path="/search" component={Search} />
+                    <Route path="/weather" component={Weather} />
                     <Route component={Accordion}/>
                 </Switch>
             </main>
