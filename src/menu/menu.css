@@ -1,0 +1,25 @@
+.nav{
+    width: 100vw;
+    height: 50px;
+    background-color: black;
+    color:#fff;
+    text-justify: center;
+    justify-content: center;
+}
+.nav_manu{
+    margin: 0px  20px;
+    margin-top: 13px;
+}
+
+
+.nav_manu a{
+    background-color: rgba(163, 163, 163, 0.041);
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.nav_manu a:hover{
+    background-color: rgb(116, 116, 116);    
+}
