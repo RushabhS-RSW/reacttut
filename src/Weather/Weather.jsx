@@ -7,9 +7,10 @@ const Weather = () => {
     const [weather, setWeather] = useState("");
     useEffect(() => {
         async function data() {
+            const jio = '01b096896570783cf92aafab6584c3ce';
             let res, error;
             try{
-                res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=01b096896570783cf92aafab6584c3ce`);
+                res = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${jio}`);
             }catch(err)
             {
                 error = "Data not found";
