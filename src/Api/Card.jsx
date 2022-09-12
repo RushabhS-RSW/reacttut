@@ -6,7 +6,7 @@ const Card = (probs) => {
             <div className="col-md-4">
                 <div className="card">
                     <div className="card-body text-center">
-                    <img class="card-img-top" src={probs.avatar} style={{width:'50px', height:'50px', borderRadius:'50px'}} alt="Card image cap" />
+                    <img class="card-img-top" src={probs.avatar} style={{width:'50px', height:'50px', borderRadius:'50px'}} alt={probs.fname} />
                         <h1>{probs.fname} {probs.lname}</h1>
                         <a href ={`mailto:${probs.email}`}>{probs.email}</a>
                     </div>

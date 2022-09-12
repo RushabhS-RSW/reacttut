@@ -11,6 +11,7 @@ const App = () => {
             }
             getData();
     },[num]);
+    
     return (
         <>
         <h1>your name is {name}</h1>
