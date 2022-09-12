@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/reacttut/static/css/main.586b2e9e.css",
-    "main.js": "/reacttut/static/js/main.55ee60cf.js",
+    "main.js": "/reacttut/static/js/main.e03ab8ee.js",
     "index.html": "/reacttut/index.html",
     "main.586b2e9e.css.map": "/reacttut/static/css/main.586b2e9e.css.map",
-    "main.55ee60cf.js.map": "/reacttut/static/js/main.55ee60cf.js.map"
+    "main.e03ab8ee.js.map": "/reacttut/static/js/main.e03ab8ee.js.map"
   },
   "entrypoints": [
     "static/css/main.586b2e9e.css",
-    "static/js/main.55ee60cf.js"
+    "static/js/main.e03ab8ee.js"
   ]
 }
