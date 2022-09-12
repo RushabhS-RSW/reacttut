@@ -1,11 +1,10 @@
 import React from 'react';
-import { NavLink, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import AxiosTut from './Axios/App';
 import Boot from './Bootstrap/Btn';
 import Accordion from './Accordion/Accordion';
 import Params from './Hooks/Params';
 import AsioxApi from './ch/AsioxApi';
-import { Link } from 'react-router-dom';
 import Menu from './menu/Menu'
 import Search from './Search/Search';
 import Weather from './Weather/Weather';
@@ -15,9 +14,6 @@ const App = () => {
     const Jio = () =>{
         return (<> <h1>Hello from router</h1></>);
     }
-    const activeClass = {
-        color: '#000',
-    };
     return (
         <>
             <main>

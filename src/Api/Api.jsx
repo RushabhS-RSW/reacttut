@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from "axios";
 import Card from "./Card";
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import { geolocated, useGeolocated } from "react-geolocated";
+import { useGeolocated } from "react-geolocated";
 
 const Api = () => {
     const [users, setUsers] = useState([]);
