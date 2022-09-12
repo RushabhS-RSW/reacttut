@@ -10,22 +10,22 @@ const Menu = () =>{
         <>
             <div className="nav">
                 <div className="nav_manu">
-                <NavLink exact activeClassName={activeClass} to="/reacttut/"> Axios </NavLink>  
+                <NavLink exact activeClassName={activeClass} to="/"> Axios </NavLink>  
                 </div>
                 <div className="nav_manu">
-                <NavLink exact activeClassName={activeClass} to="/reacttut/boot"> boot </NavLink>
+                <NavLink exact activeClassName={activeClass} to="/boot"> boot </NavLink>
                 </div>
                 <div className="nav_manu">
-                <NavLink exact activeClassName={activeClass} to="/reacttut/asiox"> card </NavLink>
+                <NavLink exact activeClassName={activeClass} to="/asiox"> card </NavLink>
                 </div>
                 <div className="nav_manu">
-                <NavLink exact activeClassName={activeClass} to="/reacttut/search"> Search </NavLink>
+                <NavLink exact activeClassName={activeClass} to="/search"> Search </NavLink>
                 </div>
                 <div className="nav_manu">
-                <NavLink exact activeClassName={activeClass} to="/reacttut/Weather"> Weather </NavLink>
+                <NavLink exact activeClassName={activeClass} to="/Weather"> Weather </NavLink>
                 </div>
                 <div className="nav_manu">
-                <NavLink exact activeClassName={activeClass} to="/reacttut/api"> Api </NavLink>
+                <NavLink exact activeClassName={activeClass} to="/api"> Api </NavLink>
                 </div>
             </div>
         </>
